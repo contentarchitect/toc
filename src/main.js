@@ -1,4 +1,4 @@
-import { Block } from "@contentarchitect/core"
+import { Block } from "@contentarchitect/editor"
 import view from "./view.vue"
 import { serialize, treeToHTML } from "./serialize"
 import icon from "./icon.svg"

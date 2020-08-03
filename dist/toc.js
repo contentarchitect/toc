@@ -1,8 +1,8 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/core')) :
-	typeof define === 'function' && define.amd ? define(['@contentarchitect/core'], factory) :
-	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Toc = factory(global.core));
-}(this, (function (core) { 'use strict';
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor')) :
+	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor'], factory) :
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Toc = factory(global.ContentArchitect));
+}(this, (function (editor) { 'use strict';
 
 	//
 	//
@@ -288,7 +288,7 @@
 
 	var icon = { render: function () { var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","height":"24","width":"24"}},[_c('path',{attrs:{"d":"M3 9h14V7H3v2zm0 4h14v-2H3v2zm0 4h14v-2H3v2zm16 0h2v-2h-2v2zm0-10v2h2V7h-2zm0 6h2v-2h-2v2z"}}),_c('path',{attrs:{"d":"M0 0h24v24H0z","fill":"none"}})]) } };
 
-	class Toc extends core.Block {
+	class Toc extends editor.Block {
 		static get viewComponent () {
 			return __vue_component__$1;
 		}
