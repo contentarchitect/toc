@@ -1,0 +1,32 @@
+{
+  "name": "@contentarchitect/toc",
+  "version": "0.0.0",
+  "description": "Table of Contents (TOC) Block for ContentArchitect",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentarchitect/toc.git"
+  },
+  "keywords": [
+    "toc",
+    "index",
+    "table",
+    "of",
+    "contents",
+    "list",
+    "headers"
+  ],
+  "author": "Cihad Paksoy <cihadp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contentarchitect/toc/issues"
+  },
+  "homepage": "https://github.com/contentarchitect/toc#readme",
+  "devDependencies": {
+    "rollup-plugin-vue": "^5",
+    "rollup-plugin-vue-inline-svg": "^1.1.1"
+  }
+}
