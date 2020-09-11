@@ -26,7 +26,7 @@ export default {
 			plugins: [
 				terser({
 					keep_classnames: true
-				}),
+				})
 			]
 		},
 	],

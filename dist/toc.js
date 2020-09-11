@@ -1,8 +1,8 @@
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@contentarchitect/editor')) :
 	typeof define === 'function' && define.amd ? define(['@contentarchitect/editor'], factory) :
-	(global = global || self, global.Toc = factory(global.ContentArchitect));
-}(this, function (editor) { 'use strict';
+	(global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.Toc = factory(global.ContentArchitect));
+}(this, (function (editor) { 'use strict';
 
 	//
 	//
@@ -315,4 +315,4 @@
 
 	return Toc;
 
-}));
+})));
