@@ -1,6 +1,6 @@
 {
   "name": "@contentarchitect/toc",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Table of Contents (TOC) Block for ContentArchitect",
   "main": "dist/toc.js",
   "browser": "dist/toc.min.js",
